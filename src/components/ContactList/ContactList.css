@@ -1,0 +1,126 @@
+/* ! contact */
+
+.contact-img{
+  width: 250px;
+  height: 134px;
+  border-radius: 4px 4px 0px 0px;
+}
+
+.contact-wrapper{
+  width: 250px;
+  height: 350px;
+  box-shadow: 1px 1px 3px rgba(33, 33, 33, 0.25);
+  border-radius: 4px;
+}
+
+.contact-info{
+  display:flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.details-list{
+  list-style-type: none;
+  padding-left: 30px;
+}
+
+.adress{
+  list-style-image:url(../../images/location.svg);
+}
+
+.phone{
+  list-style-image:url(../../images/phone.svg);
+}
+
+.email{
+  list-style-image:url(../../images/email.svg);
+}
+
+.site{
+  list-style-image:url(../../images/site.svg);
+}
+
+.contact-title{
+font-family: 'Ubuntu';
+font-style: normal  ;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+}
+
+.li{
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  margin-bottom: 2px;
+}
+
+.red__like{
+  color: red;
+  cursor: pointer;
+}
+
+.white__like{
+  color: lightgray;
+  cursor: pointer;
+}
+
+.contact-button{
+  background: #212121;
+  border-radius: 4px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  float:right;
+  margin-right: 10px;
+  border:none;
+  height: 24px;
+  cursor: pointer;
+  width: 84px;
+}
+
+
+/* !main */
+
+.main-wrapper{
+  max-width:80%;
+  margin:0 auto; 
+}
+.toolbar{
+  margin-top:47px;
+  display: flex;
+  justify-content:space-between;
+}
+.search-contact{
+  width: 551px;
+  border-radius: 10px;
+  padding-left: 15px;
+}
+.big__like{
+  margin-right:26px;
+  cursor: pointer;
+}
+.sort_AZ{
+  margin-right:20px;
+  cursor: pointer;
+  
+}
+.sort_ZA{
+  cursor: pointer;
+}
+.contacts-wrapper{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap:50px;
+  margin-top: 50px;
+  justify-items: center;
+  align-items: center;
+}
+
+
+
